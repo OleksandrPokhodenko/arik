@@ -7,8 +7,9 @@
   background-color: var(--backgroundMuted);
 }
 .letstalk__row {
+  border-block: 0.0625rem solid var(--borderDefault);
   padding-block: 1rem;
-  background-color: var(--backgroundMuted);
+  background-color: var(--backgroundGrey);
 }
 .letstalk__row [data-fls-marquee-inner] {
   gap: 2rem;

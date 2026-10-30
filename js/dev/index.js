@@ -1,11 +1,11 @@
 import "./main.min.js";
-import "./common.min.js";
 import "./blockhead.min.js";
 /* empty css          */
-/* empty css              */
 /* empty css                */
 /* empty css              */
+/* empty css              */
 /* empty css               */
+import "./common.min.js";
 // \0rolldown/runtime.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;

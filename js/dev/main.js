@@ -148,6 +148,14 @@ function menuInit() {
 		}
 	});
 }
+function submenuToggleClass() {
+	document.addEventListener("click", function(e) {
+		const el = e.target.closest(".menu__item--button");
+		if (el) el.classList.toggle("open-submenu");
+		else if (!el) document.querySelector(".menu__item--button").classList.remove("open-submenu");
+	});
+}
+window.addEventListener("load", submenuToggleClass);
 document.querySelector("[data-fls-menu]") && window.addEventListener("load", menuInit);
 // src/components/layout/header/plugins/scroll/scroll.js
 function headerScroll() {

@@ -1,7 +1,7 @@
 import "./main.min.js";
+/* empty css                */
 import { s as gotoBlock } from "./common.min.js";
 /* empty css              */
-/* empty css                */
 // src/components/forms/_functions.js
 var formValidate = {
 	getErrors(form) {

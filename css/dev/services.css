@@ -3,7 +3,7 @@
   color: var(--textHoverColor);
 }
 [data-fls-showmore-button]::after {
-  content: "\f110";
+  content: "\f101";
   font-size: 0.8125rem;
   font-family: iconfont;
   rotate: 180deg;

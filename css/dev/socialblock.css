@@ -45,28 +45,19 @@
   animation-delay: 0s;
 }
 .social-block__item.--watcher-view:nth-child(2) {
-  animation-delay: 0.1s;
-}
-.social-block__item.--watcher-view:nth-child(3) {
   animation-delay: 0.2s;
 }
-.social-block__item.--watcher-view:nth-child(4) {
-  animation-delay: 0.3s;
-}
-.social-block__item.--watcher-view:nth-child(5) {
+.social-block__item.--watcher-view:nth-child(3) {
   animation-delay: 0.4s;
 }
-.social-block__item.--watcher-view:nth-child(6) {
-  animation-delay: 0.5s;
-}
 .social-block__item.--watcher-view {
-  animation: show-cards 0.8s ease forwards;
+  animation: show-social 1s ease forwards;
 }
 
-@keyframes show-cards {
-  0% {
+@keyframes show-social {
+  50% {
     opacity: 0;
-    translate: 0 50%;
+    translate: 0 100%;
   }
   100% {
     opacity: 1;

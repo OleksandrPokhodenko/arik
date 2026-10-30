@@ -2,8 +2,8 @@ import "./main.min.js";
 import { a as getDigFormat, c as slideDown, i as dataMediaQueries, u as slideUp } from "./common.min.js";
 import "./blockhead.min.js";
 /* empty css          */
-/* empty css              */
 /* empty css                */
+/* empty css              */
 // src/components/layout/showmore/showmore.js
 function showMore() {
 	const showMoreBlocks = document.querySelectorAll("[data-fls-showmore]");
