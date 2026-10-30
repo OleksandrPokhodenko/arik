@@ -171,7 +171,7 @@
 }
 @media (width <= 20em) {
   .pricing-page {
-    padding-top: 7.5rem;
+    padding-top: 1.875rem;
   }
   .pricing-page__blockhead:not(:last-child) {
     margin-bottom: 1.875rem;
@@ -190,7 +190,7 @@
 }
 @media (width > 20em) and (width <= 89.375em) {
   .pricing-page {
-    padding-top: clamp( 7.5rem , 5.626126126125rem  +  9.3693693694vw , 14rem );
+    padding-top: clamp( 1.875rem , -1.62049549549375rem  +  17.4774774775vw , 14rem );
   }
   .pricing-page__blockhead:not(:last-child) {
     margin-bottom: clamp( 1.875rem , 1.2623873873875rem  +  3.0630630631vw , 4rem );

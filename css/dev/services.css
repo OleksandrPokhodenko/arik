@@ -183,7 +183,7 @@
 
 @media (width <= 20em) {
   .services-hero {
-    padding-top: 7.5rem;
+    padding-top: 1.875rem;
   }
   .services-hero {
     padding-bottom: 2.5rem;
@@ -222,7 +222,7 @@
 
 @media (width > 20em) and (width <= 89.375em) {
   .services-hero {
-    padding-top: clamp( 7.5rem , 5.626126126125rem  +  9.3693693694vw , 14rem );
+    padding-top: clamp( 1.875rem , -1.62049549549375rem  +  17.4774774775vw , 14rem );
   }
   .services-hero {
     padding-bottom: clamp( 2.5rem , 1.77927927928125rem  +  3.6036036036vw , 5rem );
